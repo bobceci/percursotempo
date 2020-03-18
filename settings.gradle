@@ -1,0 +1,2 @@
+rootProject.name='Calcula Percurso e Tempo'
+include ':app'

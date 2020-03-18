@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">" Berechnet Route und Zeit"</string>
+    <string name="permisao">" Zugriff auf GPS zulassen"</string>
+    <string name="caminho">" Starten Sie den Pfad"</string>
+    <string name="fimCaminho">"Pfad beenden "</string>
+    <string name="distanciaPercorrida">" Zurückgelegte Strecke:"</string>
+    <string name="tempoTotal">" Gesamtzeit:"</string>
+    <string name="dica">" Wonach suchen Sie?"</string>
+    <string name="gpsLigado">" GPS ist bereits eingeschaltet"</string>
+    <string name="gpsDesligado">GPS ist bereits ausgeschaltet</string>
+    <string name="gpsDesativado">" GPS ist deaktiviert. Bitte aktivieren!"</string>
+    <string name="gpsNecessario">" Die Anwendung benötigt Zugriff auf GPS, um funktionieren zu können"</string>
+    <string name="permissaoNecessaria">" GPS-Zugangsberechtigung erforderlich"</string>
+    <string name="ligarGPS">" Schalten Sie GPS ein"</string>
+    <string name="desligarGPS">" Schalten Sie das GPS aus"</string>
+    <string name="desligarGPS2">" Berechtigung entfernen"</string>
+</resources>

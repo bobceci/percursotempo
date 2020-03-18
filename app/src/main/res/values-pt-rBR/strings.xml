@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calcula Percurso e Tempo</string>
+    <string name="permissaoNecessaria">Necessário a permissão de acesso ao GPS</string>
+    <string name="gpsNecessario">O aplicativo precisa de acesso ao GPS para funcionar</string>
+    <string name="gpsDesativado">O GPS está desativado. Por favor ative!</string>
+    <string name="gpsDesligado">O GPS já está desligado</string>
+    <string name="gpsLigado">O GPS já está ligado</string>
+    <string name="dica">O que você procura?</string>
+    <string name="tempoTotal">Tempo Total:</string>
+    <string name="distanciaPercorrida">Distância Percorrida:</string>
+    <string name="fimCaminho">Finalizar Caminho</string>
+    <string name="caminho">Iniciar o Caminho</string>
+    <string name="permisao">Permitir acesso ao GPS</string>
+    <string name="ligarGPS">Ligar GPS</string>
+    <string name="desligarGPS">Desligar GPS</string>
+    <string name="desligarGPS2">Remover permissão</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">" Calcula ruta y tiempo"</string>
+    <string name="desligarGPS2">" Eliminar permiso"</string>
+    <string name="desligarGPS">" Apagar GPS"</string>
+    <string name="ligarGPS">" Enciende el GPS"</string>
+    <string name="permissaoNecessaria">" Se requiere permiso de acceso GPS"</string>
+    <string name="gpsNecessario">" La aplicación necesita acceso a GPS para funcionar"</string>
+    <string name="gpsDesativado">" El GPS está deshabilitado. Por favor activar!"</string>
+    <string name="gpsDesligado">El GPS ya está apagado</string>
+    <string name="gpsLigado">GPS ya está encendido</string>
+    <string name="dica">" ¿Qué estás buscando?"</string>
+    <string name="tempoTotal">" Tiempo Total:"</string>
+    <string name="distanciaPercorrida">Distancia recorrida: 0</string>
+    <string name="fimCaminho">" Camino final"</string>
+    <string name="caminho">" Comience el camino"</string>
+    <string name="permisao">" Permitir acceso a GPS"</string>
+</resources>

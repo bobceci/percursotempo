@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:columnCount="2"
+    android:rowCount="6">
+
+    <Button
+        android:id="@+id/permitirAcesso"
+        android:layout_width="match_parent"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:padding="@dimen/padding"
+        android:text="@string/permisao"
+        android:textColor="@color/corTexto" />
+
+    <Button
+        android:id="@+id/desligarGPS"
+        android:layout_width="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="2"
+        android:background="@color/colorPrimaryDark"
+        android:padding="@dimen/padding"
+        android:text="@string/desligarGPS2"
+        android:textColor="@color/corTexto" />
+
+    <Button
+        android:id="@+id/ligarGPS"
+        android:layout_width="14dp"
+       android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:padding="@dimen/padding"
+        android:text="@string/ligarGPS"
+        android:textColor="@color/corTexto"/>
+
+
+    <Button
+        android:id="@+id/inicioCaminho"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="2"
+        android:background="@color/colorPrimaryDark"
+        android:padding="@dimen/padding"
+        android:text="@string/caminho"
+        android:textColor="@color/corTexto"/>
+
+    <TextView
+        android:id="@+id/distanciaPercorrida"
+        android:layout_gravity="fill_horizontal"
+        android:padding="@dimen/padding"
+        android:text="@string/distanciaPercorrida"
+        android:textColor="@color/corTexto"
+        android:textSize="@dimen/tamanhoTexto2" />
+
+    <TextView
+        android:id="@+id/labelPercorrida"
+        android:layout_row="0"
+        android:layout_gravity="fill_horizontal"
+        android:padding="@dimen/padding"
+        android:textColor="@color/corTexto"
+        android:textSize="@dimen/tamanhoTexto2" />
+
+
+    <Button
+        android:id="@+id/fimCaminho"
+        android:layout_width="96dp"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnSpan="2"
+        android:background="@color/colorPrimaryDark"
+        android:padding="@dimen/padding"
+        android:text="@string/fimCaminho"
+        android:textColor="@color/corTexto"/>
+
+
+    <TextView
+        android:id="@+id/tempoTotal"
+        android:layout_gravity="fill_horizontal"
+        android:padding="@dimen/padding"
+        android:text="@string/tempoTotal"
+        android:textColor="@color/corTexto"
+        android:textSize="@dimen/tamanhoTexto2" />
+
+    <Chronometer
+        android:id="@+id/cronometro"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="@color/corTexto"
+        android:textSize="24sp" />
+
+
+    <EditText
+        android:id="@+id/EditText"
+        android:layout_width="181dp"
+        android:layout_gravity="fill_horizontal"
+        android:hint="@string/dica"
+        android:inputType="textMultiLine|textLongMessage"
+        android:padding="@dimen/padding"
+        android:background="@color/colorPrimaryDark"/>
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/botaoPesquisa"
+
+        android:gravity="center_horizontal"
+        android:layout_width="45dp"
+        android:layout_height="43dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:srcCompat="@android:drawable/ic_search_category_default" />
+
+
+</GridLayout>
